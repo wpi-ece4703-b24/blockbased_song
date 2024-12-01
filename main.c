@@ -3,7 +3,7 @@
 
 #define BLOCKSIZE 64
 
-extern uint16_t *largearray;
+extern uint16_t largearray[100000];
 
 void processBuffer(uint16_t x[BLOCKSIZE], uint16_t y[BLOCKSIZE]) {
     static int block = 0;
